@@ -1,0 +1,3100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Saladão</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.c"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylemodal.css"/>
+    <!-- Box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- NAV -->
+      <div class="nav container">
+        <!-- LOGO -->
+        <a href="#" class="logo">
+          <img src="images/logo saladão.png" alt="" />
+        </a>
+        <!-- NAVBAR -->
+        <div class="navbar">
+          <a href="index.html" class="nav-link">Home</a>
+          <div class="dropdown">
+            <a href="cardapio.html" class="nav-link">Cardápio</a>
+            <div class="dropdown-content">
+              <a href="#item1">Lanches em promoção</a>
+              <a href="#item2">Lanches tudão</a>
+              <a href="#item3">Pastéis</a>
+              <!-- <a href="#item4">Caldos</a> -->
+              <a href="#item5">Batatas fritas e Caldos</a>
+              <a href="#item6">Beirutes</a>
+              <a href="#item7">Sobremesa gelada</a>
+              <a href="#item8">Bolos no Pote</a>
+              <a href="#item9">Doces e Chocolate</a>
+              <a href="#item10">Bebidas sem álcool e sucos</a>
+              <a href="#item11">Cervejas e bebidas com álcool</a>
+            </div>
+          </div>
+          <a href="sobre.html" class="nav-link">Sobre Nós</a>
+        </div>
+
+        <!-- NAV ICONS -->
+        <div class="nav-icons">
+          <button id="cart-btn">
+            (<span id="cart-count">0</span>) Ver meu carrinho
+          </button>
+          <!-- Menu ICON -->
+          <div class="menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="home-content container">
+        <div class="home-text">
+          <h1>Saladão o predileto</h1>
+          <br />
+          <span>Avenida Valter Boveri, N° 969 Bussocaba Osasco- SP</span>
+          <div class="bg-green-500" id="date-span">
+            <span>Terça à Domingo - 19:00 às 01:00</span>
+          </div>
+        </div>
+        <!-- HOME IMAGE -->
+        <img src="images/home2.png" alt="" class="home-img" />
+      </div>
+      <!-- HOME MASK IMAGE -->
+      <img src="images/home-mask.png" alt="" class="home-mask" />
+    </section>
+    <!-- Features -->
+    <div class="features container">
+      <div class="feature-box">
+        <img src="images/feature-2.png" alt="" class="feature-img" />
+        <div class="feature-text">
+          <h3>Entrega rápida</h3>
+          <p>Receba em até 35 minutos</p>
+        </div>
+      </div>
+      <div class="feature-box">
+        <img src="images/feature-3.png" alt="" class="feature-img" />
+        <div class="feature-text">
+          <h3>Entrega pontual</h3>
+          <p>Serviço profissional e amigável</p>
+        </div>
+      </div>
+      <div class="feature-box">
+        <img src="images/feature-4.png" alt="" class="feature-img" />
+        <div class="feature-text">
+          <h3>Pagamentos Seguros</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Feature Menu -->
+    <section class="feature-menu container" id="feature-menu">
+      <h2 class="heading">Menu</h2>
+      <div class="feature-menu-content">
+          <div class="feature-menu-box">
+          <img src="images/X-Salada.png" alt="Lanches em promoção" />
+          <h3><b>Lanches em promoção</b></h3>
+          <p>(43 itens)</p>
+        </div>
+        <div class="feature-menu-box">
+          <img src="images/C H U R R A S C O - T U D Ã O.png" alt="Lanches tudão" />
+          <h3><b>Lanches tudão</b></h3>
+          <p>(10 itens)</p>
+        </div>
+        <div class="feature-menu-box">
+          <img src="images/Pastel de Francheddar.png" alt="Pastéis" />
+          <h3><b>Pastéis</b></h3>
+          <p>(16 itens)</p>
+        </div>
+        <div class="feature-menu-box">
+          <img src="images/Batata Frita Media Recheada ( Aprox. 400 Gr ).png" alt="Batatas fritas e Caldos" />
+          <h3><b>Batatas fritas e Caldos</b></h3>
+          <p>(8 itens)</p>
+        </div>
+        <div class="feature-menu-box">
+          <img src="images/Beirutão a Moda da Casa ( serve ate 3 pessoas).png" alt="Beirutes" />
+          <h3><b>Beirutes</b></h3>
+          <p>(2 itens)</p>
+        </div>
+        <div class="feature-menu-box">
+          <img src="images/Cupuaçu no pote 400 Ml.png" alt="Sobremesa" />
+          <h3><b>Sobremesa gelada</b></h3>
+          <p>(6 itens)</p>
+        </div>
+        <div class="feature-menu-box">
+          <img src="images/Bolo Gelado Sensaçao.png" alt="Bolos" />
+          <h3><b>Bolos no Pote</b></h3>
+          <p>(6 itens)</p>
+        </div>
+        <div class="feature-menu-box">
+          <img src="images/Chocolate nestle prestigio 33 g.png" alt="Doces" />
+          <h3><b>Doces e Chocolate</b></h3>
+          <p>(17 itens)</p>
+        </div>
+        <div class="feature-menu-box">
+          <img src="images/Coca Lata 350 Ml.png" alt="sem álcool" />
+          <h3><b>Bebidas sem álcool e sucos</b></h3>
+          <p>(38 itens)</p>
+        </div>
+        <div class="feature-menu-box">
+          <img src="images/Cerveja Skol 350 Ml.png" alt="com álcool" />
+          <h3><b>Cervejas e bebidas com álcool</b></h3>
+          <p>(38 itens)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Itens -->
+    <section class="items" id="items">
+      <h2 class="heading container">Nossos Itens em Destaque</h2>
+      <div class="item-content container">
+        <div class="item-box">
+          <span class="sale">Promoção</span>
+          <img src="images/A Ç A I N O P O T E D E ( 500 Ml ).png" alt="A Ç A I N O P O T E D E ( 500 Ml )" />
+          <h2>AÇAI NO POTE 500 ML </h2>
+          <div class="price add-to-cart-btn">
+            <h3>R$25.00</h3>
+          </div>
+          <button class="add-to-cart item-btn">Comprar</button>
+        </div>
+        <div class="item-box">
+          <span class="sale">Promoção</span>
+          <img src="images/C H U R R A S C O - T U D Ã O.png" alt="C H U R R A S C O - T U D Ã O" />
+          <h2>CHURRASCO - TUDÃO</h2>
+          <div class="price add-to-cart-btn">
+            <h3>R$35.00</h3>
+          </div>
+          <button class="add-to-cart item-btn">Comprar</button>
+        </div>
+        <div class="item-box">
+          <span class="sale">Promoção</span>
+          <img src="images/Dogão no Prato.png" alt="Dogão no Prato" />
+          <h2>Dogão no Prato</h2>
+          <div class="price add-to-cart-btn">
+            <h3>R$20.00</h3>
+          </div>
+          <button class="add-to-cart item-btn">Comprar</button>
+        </div>
+        <div class="item-box">
+          <span class="sale">Promoção</span>
+          <img src="images/Batata Frita Media Recheada ( Aprox. 400 Gr ).png" alt="Batata Frita Media Recheada" />
+          <h2>Batata Frita Media Recheada</h2>
+          <div class="price add-to-cart-btn">
+            <h3>R$34.00</h3>
+          </div>
+          <button class="add-to-cart item-btn">Comprar</button>
+        </div>
+        <div class="item-box">
+          <span class="sale">Promoção</span>
+          <img src="images/Caldo Verde ( 500 Ml ).png" alt="Caldo Verde ( 500 Ml )" />
+          <h2>Caldo Verde ( 500 Ml )</h2>
+          <div class="price add-to-cart-btn">
+            <h3>R$28.00</h3>
+          </div>
+          <button class="add-to-cart item-btn">Comprar</button>
+        </div>
+        <div class="item-box">
+          <span class="sale">Promoção</span>
+          <img src="images/Caldos de Mocoto ( 500 Ml ).png" alt="Caldos de Mocoto ( 500 Ml )" />
+          <h2>Caldos de Mocoto ( 500 Ml )</h2>
+          <div class="price add-to-cart-btn">
+            <h3>R$28.00</h3>
+          </div>
+          <button class="add-to-cart item-btn">Comprar</button>
+        </div>
+        <div class="item-box">
+          <span class="sale">Promoção</span>
+          <img src="images/Pastel de Francheddar.png" alt="Pastel de Francheddar" />
+          <h2>Pastel de Francheddar</h2>
+          <div class="price add-to-cart-btn">
+            <h3>R$12.00</h3>
+          </div>
+          <button class="add-to-cart item-btn">Comprar</button>
+        </div>
+        <div class="item-box">
+          <span class="sale">Promoção</span>
+          <img src="images/Pastel de Atum Temperado a moda da casa.png" 
+          alt="Pastel de Atum Temperado a moda da casa" />
+          <h2>Pastel de Atum Temperado a moda da casa</h2>
+          <div class="price add-to-cart-btn">
+            <h3>R$12.00</h3>
+          </div>
+          <button class="add-to-cart item-btn">Comprar</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu-container" id="menu-container">
+      <h2 class="heading container">Cardápio</h2>
+      <h2 class="heading container" id="item1">Lanches em promoção</h2>
+      <img src="images/menu-mask.png" alt="" class="menu-mask" />
+      <div class="menu-content container">
+        <div class="menu-box">
+          <h2>Promoçao lanches à R$ 12.00</h2>
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/X-salada.png" alt="X-salada" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>X-salada</h3>
+                  <p>Pao, alface, tomate,maionese, hambúrguer , queijo</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Bauru.png" alt="Bauru" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Bauru</h3>
+                  <p>Presunto, maionese, queijo e tomate</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Calabresa.png" alt="Calabresa" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Calabresa</h3>
+                  <p>Calabresa, queijo, maionese e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Catu- frango.png" alt="Catu-frango" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Catu-frango</h3>
+                  <p>
+                    Filé de Frango desfiado, Catupiry, maionese, alface e
+                    tomate.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Dog (prensado).png" alt="Dog (prensado)" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Dog (prensado)</h3>
+                  <p>
+                    Salsicha, queijo, batata palha, maionese, presunto, tomate.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Escarola com queijo.png"
+                alt="Escarola C/ queijo"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Escarola C/ queijo</h3>
+                  <p>Escarola refogada, maionese, queijo, tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Frango.png" alt="Frango" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Frango</h3>
+                  <p>
+                    Filé de Frango desfiado, queijo, maionese, alface e tomate.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Hot - Dog ( tradicional ).png"
+                alt="Hot-Dog (tradicional)"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Hot-Dog (tradicional)</h3>
+                  <p>
+                    Salsicha, maionese, salada mista, purê, batata palha,
+                    ketchup e mostarda.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Misto.png" alt="Misto" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Misto</h3>
+                  <p>Presunto, queijo e maionese.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Toscana.png" alt="Toscana" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Toscana</h3>
+                  <p>Linguiça fresca, maionese, queijo e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/X - burguer.png" alt="X-burguer" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>X-burguer</h3>
+                  <p>Hambúrguer, queijo e maionese.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <h2>Lanches à R$ 15.00</h2>
+          <div class="bbq-content">
+            <div class="m-item-box">
+              <img src="images/X- egg.png" alt="X-egg" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>X-egg</h3>
+                  <p>Hambúrguer, queijo, maionese, ovo, alface e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Calabresa egg.png" alt="Calabresa egg" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Calabresa egg</h3>
+                  <p>Calabresa, queijo, maionese, ovo e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Toscana Egg.png" alt="Toscana Egg" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Toscana Egg</h3>
+                  <p>Linguiça fresca, maionese, ovo, queijo e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Frango egg.png" alt="Frango egg" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Frango egg</h3>
+                  <p>
+                    Filé de Frango desfiado, queijo, maionese, ovos, alface e
+                    tomate.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Catufrango egg.png" alt="Catufrango egg" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Catufrango egg</h3>
+                  <p>
+                    Filé de Frango desfiado, Catupiry, maionese, ovo, alface e
+                    tomate.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Escarola Egg com Queijo.png"
+                alt="Escarola Egg C/ Queijo"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Escarola Egg C/ Queijo</h3>
+                  <p>Escarola refogada, maionese, ovo, queijo e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Dog egg.png" alt="Dog egg" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Dog egg</h3>
+                  <p>
+                    Salsicha, queijo, batata palha, maionese, ovo, presunto e
+                    tomate.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Bauru Egg.png" alt="Bauru Egg" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Bauru Egg</h3>
+                  <p>Presunto, maionese, ovo, queijo e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Churrasco com Queijo.png"
+                alt="Churrasco C/ Queijo"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Churrasco C/ Queijo</h3>
+                  <p>Contra filé, maionese, vinagrete, queijo.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Atum C/ Queijo.png" alt="Atum C/ Queijo" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Atum C/ Queijo</h3>
+                  <p>Atum temperado, queijo, maionese, alface, tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/X - Steak com Queijo.png"
+                alt="X-Steak C/ Queijo"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>X-Steak C/ Queijo</h3>
+                  <p>Steak, queijo, maionese, alface e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu-container" id="menu-container">
+      <div class="menu-content container">
+        <div class="menu-box">
+          <h2>Lanches à R$ 18.00</h2>
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/X - Bacon.png" alt="X-Bacon" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>X-Bacon</h3>
+                  <p>Hambúrguer, queijo, maionese, bacon, alface e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$18.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Calabresa Bacon.png" alt="Calabresa Bacon" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Calabresa Bacon</h3>
+                  <p>Calabresa, queijo, maionese, bacon, tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$18.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Toscana Bacon.png" alt="Toscana Bacon" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Toscana Bacon</h3>
+                  <p>Linguiça fresca, maionese, bacon, queijo e alface.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$18.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Frango Bacon.png" alt="Frango Bacon" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Frango Bacon</h3>
+                  <p>
+                    Filé de Frango grelhado, queijo, maionese, bacon, alface.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$18.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Catu- Franbacon.png" alt="Catu-Franbacon" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Catu-Franbacon</h3>
+                  <p>
+                    Filé de Frango desfiado, Catupiry, maionese, bacon, alface.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$18.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Escarola Bacon.png" alt="Escarola Bacon" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Escarola Bacon</h3>
+                  <p>Escarola refogada, maionese, bacon, queijo e alface.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$18.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Dog Bacon.png" alt="Dog Bacon" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Dog Bacon</h3>
+                  <p>
+                    Salsicha, queijo, batata palha, maionese, bacon, presunto e
+                    alface.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$18.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Bauru Bacon.png" alt="Bauru Bacon" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Bauru Bacon</h3>
+                  <p>Presunto, maionese, bacon, queijo e alface.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$18.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Churrasco egg com Queijo.png"
+                alt="Churrasco egg C / Queijo"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Churrasco egg C / Queijo</h3>
+                  <p>Contra filé, queijo, maionese, ovo e vinagrete.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$18.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/X - steak Egg com Queijo.png"
+                alt="X-steak Egg C / Queijo"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>X-steak Egg C / Queijo</h3>
+                  <p>Esteak de frango, ovo, maionese, alface e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$18.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Atum Egg C / Queijo.png"
+                alt="Atum Egg C / Queijo"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Atum Egg C / Queijo</h3>
+                  <p>Atum temperado, queijo, ovo, maionese, alface e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$18.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <h2>Lanches à partir de R$ 20,00</h2>
+          <div class="bbq-content">
+            <div class="m-item-box">
+              <img
+                src="images/Churrasco Bacon com Queijo.png"
+                alt="Churrasco Bacon C/ Queijo"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Churrasco Bacon C/ Queijo</h3>
+                  <p>Contra filé, queijo, bacon, maionese, vinagrete.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/X-steak Bacon com Queijo.png"
+                alt="X-steak Bacon C/ Queijo"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>X-steak Bacon C/ Queijo</h3>
+                  <p>Steak, queijo, bacon, maionese, alface e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Atum Bacom C/ Queijo.png"
+                alt="Atum Bacon C/ Queijo"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Atum Bacon C/ Queijo</h3>
+                  <p>
+                    Atum temperado, queijo,bacon picado, maionese, alface e
+                    tomate.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/X - Tudo.png" alt="X-Tudo" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>X-Tudo</h3>
+                  <p>
+                    Hambúrguer, queijo, maionese, bacon, presunto, calabresa,
+                    ovo, cheddar, Catupiry, frango, tomate e alface.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$30.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Churrasco especial.png"
+                alt="Churrasco especial"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Churrasco especial</h3>
+                  <p>
+                    Isca de carne, maionese, tomate, ovo, bacon, presunto,
+                    calabresa, cheddar, Catupiry.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$30.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Frango especial.png" alt="Frango especial" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Frango especial</h3>
+                  <p>
+                    Frango, ovo, bacon, calabresa, cheddar, Catupiry, tomate e
+                    alface.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$30.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Calabresa Especial.png"
+                alt="Calabresa Especial"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Calabresa Especial</h3>
+                  <p>
+                    Calabresa, queijo, maionese, presunto, bacon, Catupiry,
+                    cheddar, ovo, tomate e alface.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$30.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Toscana Especial.png" alt="Toscana Especial" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Toscana Especial</h3>
+                  <p>
+                    Linguiça fresca, queijo, maionese, bacon, presunto, cheddar,
+                    Catupiry, calabresa, ovo.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$30.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Catufrango especial.png"
+                alt="Catufrango especial"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Catufrango especial</h3>
+                  <p>
+                    Frango, Catupiry, maionese, bacon, presunto, cheddar,
+                    Catupiry, ovo, tomate e alface.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$30.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Americano.png" alt="Americano" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Americano</h3>
+                  <p>
+                    Presunto, queijo, maionese, bacon, calabresa, ovo, tomate e
+                    alface.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$30.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-container" id="item2">
+      <h2 class="heading container">Lanches tudão R$ 35.00( Serve 2 pessoas )</h2>
+      <img src="images/menu-mask.png" alt="" class="menu-mask" />
+      <div class="menu-content container">
+        <div class="menu-box">
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/X - T U D Ã O.png" alt="X-Tudão" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>X - T U D Ã O</h3>
+                  <p>
+                    Hambúrguer, queijo, maionese, bacon, presunto, calabresa,
+                    ovo, cheddar, Catupiry, frango, alface e tomate. (Acompanha
+                    fritas).
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$35.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/S T E A K - T U D Ã O.png" alt="Steak Tudão" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>S T E A K - T U D Ã O</h3>
+                  <p>
+                    Steak, maionese, ovo, bacon, calabresa, queijo prato,
+                    cheddar e Catupiry. (Acompanha fritas).
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$35.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div><br>
+            <div class="m-item-box">
+              <img
+                src="images/C H U R R A S C O - T U D Ã O.png"
+                alt="Churrasco Tudão"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>C H U R R A S C O - T U D Ã O</h3>
+                  <p>
+                    Isca de carne, maionese, tomate, ovo, bacon, presunto,
+                    calabresa, cheddar e Catupiry. (Acompanha fritas).
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$35.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/A T U M - T U D Ã O.png" alt="Atum Tudão" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>A T U M - T U D Ã O</h3>
+                  <p>
+                    Atum temperado com cebola, bacon, calabresa, maionese,
+                    cheddar, Catupiry, alface e tomate. (Acompanha fritas).
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$35.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/F R A N G 0 - T U D Ã O.png"
+                alt="Frango Tudão"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>F R A N G 0 - T U D Ã O</h3>
+                  <p>
+                    Frango, ovo, bacon, calabresa, cheddar, Catupiry, tomate e
+                    alface. (Acompanha fritas).
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$35.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <div class="bbq-content">
+            <div class="m-item-box">
+              <img
+                src="images/C A L A B R E S A - T U D Ã O.png"
+                alt="Calabresa Tudão"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>C A L A B R E S A - T U D Ã O</h3>
+                  <p>
+                    Calabresa, queijo, maionese, presunto, bacon, Catupiry,
+                    cheddar, ovo, tomate e alface. (Acompanha fritas).
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$35.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Toscano Tudão.png" alt="Toscano Tudão" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>T O S C A N O - T U D Ã O</h3>
+                  <p>
+                    Linguiça fresca, queijo, maionese, bacon, presunto, cheddar,
+                    Catupiry, calabresa, ovo, tomate e alface. (Acompanha
+                    fritas).
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$35.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/C A T U F R A N G O - T U D Ã O.png"
+                alt="Catufrango Tudão"
+              />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>C A T U F R A N G O - T U D Ã O</h3>
+                  <p>
+                    Frango, Catupiry, maionese, bacon, presunto, cheddar, ovo,
+                    tomate e alface. (Acompanha fritas).
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$35.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Americano Tudão.png" alt="Americano Tudão" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Americano Tudão</h3>
+                  <p>
+                    Presunto, queijo, maionese, bacon, calabresa, cheddar,
+                    Catupiry, ovo, alface e tomate. (Acompanha fritas).
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$35.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Dogão no Prato.png" alt="Dogão no Prato" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Dogão no Prato</h3>
+                  <p>
+                    Pão, 2 salsichas picadas, milho, purê, salada mista, batata palha, cheddar, 
+                    maionese, Catupiry, queijo ralado, mostarda e ketchup.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu-container" id="item3">
+      <h2 class="heading container">Pastéis por R$ 12.00</h2>
+      <img src="images/menu-mask.png" alt="" class="menu-mask" />
+      <div class="menu-content container">
+        <div class="menu-box">
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/Carijo.png" alt="Carijo" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Carijo</h3>
+                  <p>
+                    Frango , Catupiry ,e Milho.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div><br>
+            <div class="m-item-box">
+              <img src="images/Pastel de Atum Temperado a moda da casa.png" alt="Pastel de Atum Temperado a moda da casa" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de Atum Temperado a moda da casa</h3>
+                  <p>
+                    Consultar no comentário.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Pastel de Carne com queijo.png" alt="Pastel de Carne com queijo"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de Carne com queijo</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pastel de Milho com Queijo.png" alt="Pastel de Milho com Queijo" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de Milho com Queijo</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Pastel Frango com Catupiry.png" alt="Pastel Frango com Catupiry"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel Frango com Catupiry</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Pastel de Queijo.png" alt="Pastel de Queijo"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de Queijo</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pastel de pizza.png" alt="Pastel de pizza" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de pizza</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Pastel de Bauru.png" alt="Pastel de Bauru"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de Bauru</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <div class="bbq-content">            
+            <div class="m-item-box">
+              <img src="images/Pastel de Calabresa com Queijo.png" alt="Pastel de Calabresa C/ Queijo" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de Calabresa C/ Queijo</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pastel de Palmito com Queijo.png" alt="Pastel de Palmito com Queijo" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de Palmito com Queijo</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pastel de Frango com Queijo.png" alt="Pastel de Frango com Queijo" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de Frango com Queijo</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pastel de Escarola com Queijo.png" alt="Pastel de Escarola com Queijo" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de Escarola com Queijo</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pastel de Catubresa.png" alt="Pastel de Catubresa" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de Catubresa</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pastel de Calacheddar.png" alt="Pastel de Calacheddar" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de Calacheddar</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pastel de Francheddar.png" alt="Pastel de Francheddar" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel de Francheddar</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pastel Hot - Dog.png" alt="Pastel Hot - Dog" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel Hot - Dog</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu-container" id="menu-container">
+      <h2 class="heading container">Pastéis doce por R$ 20.00</h2>
+      <img src="images/menu-mask.png" alt="" class="menu-mask" />
+      <div class="menu-content container">
+        <div class="menu-box">
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/Pastel Doce Meio a Meio.png" alt="Pastel Doce Meio a Meio" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel Doce Meio a Meio</h3>
+                  <p>
+                    Pastel doce meio a meio metade banana e metade morango com chocolate.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>            
+            <div class="m-item-box">
+              <img
+                src="images/Pastel Doce com Chocolate (Prestigio Nestle).png" alt="Pastel Doce com Chocolate (Prestigio Nestle)"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel Doce com Chocolate (Prestigio Nestle)</h3>
+                  <p>
+                    Chocolate ao leite e Coco ralado.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pastel Trio Doce.png" alt="Pastel Trio Doce" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel Trio Doce</h3>
+                  <p>
+                    Banana Morango bombom e chocolate.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Pastel doce Ouro Branco.png" alt="Pastel doce Ouro Branco"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel doce Ouro Branco</h3>
+                  <p>
+                    Chocolate ao leite e bombom Ouro Branco.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <div class="bbq-content">
+            <div class="m-item-box">
+              <img
+                src="images/Pastel doce Sonho de valsa.png" alt="Pastel doce Sonho de valsa"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel doce Sonho de valsa</h3>
+                  <p>
+                    Bom bom e Chocolate ao leite.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pastel doce de Brigadeiro.png" alt="Pastel doce de Brigadeiro"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel doce de Brigadeiro</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pastel doce Kitkat ( nestle).png" alt="Pastel doce Kitkat ( nestle)"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel doce Kitkat ( nestle)</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Pastel doce de banana.png" alt="Pastel doce de banana"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pastel doce de banana</h3>
+                  <p>
+                    Palstel de banana com chocolate.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu-container" id="item5">
+      <h2 class="heading container">Batatas fritas e Caldos</h2>
+      <img src="images/menu-mask.png" alt="" class="menu-mask" />
+      <div class="menu-content container">
+        <div class="menu-box">
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/Batata Frita Peq Aprox . 300 Gr.png" alt="Batata Frita Peq Aprox . 300 Gr" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Batata Frita Peq Aprox . 300 Gr</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Batata Frita Media Aprox. 400 Gr.png" alt="Batata Frita Media Aprox. 400 Gr" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Batata Frita Media Aprox. 400 Gr</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$25.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Batata Frita Grande .Aprox 500 Gr.png" alt="Batata Frita Grande .Aprox 500 Gr" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Batata Frita Grande .Aprox 500 Gr</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$38.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Caldo Verde ( 500 Ml ).png" alt="Caldo Verde ( 500 Ml )" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Caldo Verde ( 500 Ml )</h3>
+                  <p>
+                    Batata, couve, salsa, bacon.
+                  </p><br><br>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$28.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <div class="bbq-content">
+            <div class="m-item-box">
+              <img src="images/Batata Frita Peq Recheada ( Aprox . 300 Gr ).png" alt="Batata Frita Peq Recheada ( Aprox . 300 Gr )" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Batata Frita Peq Recheada ( Aprox . 300 Gr )</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$24.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Batata Frita Media Recheada ( Aprox. 400 Gr ).png" alt="Batata Frita Media Recheada ( Aprox. 400 Gr )" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Batata Frita Media Recheada ( Aprox. 400 Gr )</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$34.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Batata Grande Recheada Aprox. (500 Gr).png" alt="Batata Grande Recheada Aprox. (500 Gr)" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Batata Grande Recheada Aprox. (500 Gr)</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$47.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Caldos de Mocoto ( 500 Ml ).png" alt="Caldos de Mocoto ( 500 Ml )" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Caldos de Mocoto ( 500 Ml )</h3>
+                  <p>
+                    Mocotó, cebolinha, alho, tomate, coentro.
+                  </p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$28.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu-container" id="menu-container">
+      <div class="menu-content container">
+        <div class="menu-box">
+          <h2>Combos</h2>
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/Combo 1.png" alt="Combo 1" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Combo 1</h3>
+                  <p>Fritas média, calabresa fatiada acebolada, pão fatiado, maionese e tomate.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$48.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div><br>
+            <div class="m-item-box">
+              <img src="images/Combo 1 ( Recheado ).png" alt="Combo 1 ( Recheado )" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Combo 1 ( Recheado )</h3>
+                  <p>( Recheio Cheddar Catupiry e Bacon ).</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$54.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>            
+          </div>
+        </div>
+        <div class="menu-box">
+          <h2>Porções</h2>
+          <div class="bbq-content">
+            <div class="m-item-box">
+              <img
+                src="images/Porçao de Calabresa.png" alt="Porçao de Calabresa"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Porçao de Calabresa</h3>
+                  <p>Calabresa e cebola.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$38.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Porção Trio Legal ( para 4 pessoas )" alt="Porção Trio Legal ( para 4 pessoas )"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Porção Trio Legal ( para 4 pessoas )</h3>
+                  <p>Isca de Carne , batata frita , Calabresa fatiada acebolada 
+                    acompanha Vinagrete e maionese e pao.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$75.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu-container" id="item6">
+      <h2 class="heading container">Beirutes Serve até 3 pessoas</h2>
+      <img src="images/menu-mask.png" alt="" class="menu-mask" />
+      <div class="menu-content container">
+        <div class="menu-box">
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/Beirutão a Moda da Casa serve ate 3 pessoas( Recheado).png" 
+              alt="Beirutão a Moda da Casa serve ate 3 pessoas( Recheado)"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Beirutão a Moda da Casa serve ate 3 pessoas( Recheado)</h3>
+                  <p>recheio de Cheddar, Catupiry e Bacon</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$54.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>            
+          </div>
+        </div>
+        <div class="menu-box">
+          <div class="bbq-content">
+            <div class="m-item-box">
+              <img src="images/Beirutão a Moda da Casa ( serve ate 3 pessoas).png" 
+              alt="Beirutão a Moda da Casa ( serve ate 3 pessoas)" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Beirutão a Moda da Casa ( serve ate 3 pessoas)</h3>
+                  <p>Pão bolachao, maionese, mussarela, bacon, Catupiry, cheddar, 
+                    2 ovo frito, frango, calabresa, presunto. Acompanha: Fritas.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$48.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="menu-container" id="item7">
+      <h2 class="heading container">Sobremesa gelada</h2>
+      <img src="images/menu-mask.png" alt="" class="menu-mask" />
+      <div class="menu-content container">
+        <div class="menu-box">
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/Casadinho no Pote 400 Ml.png" alt="Casadinho no Pote 400 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Casadinho no Pote 400 Ml</h3>
+                  <p>Casadinho 400 ml, banana, morango, leite condensado, leite em pó, granola.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Cupuaçu no pote 400 Ml.png" alt="Cupuaçu no pote 400 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cupuaçu no pote 400 Ml</h3>
+                  <p>Cupuaçu 400 ml, banana, morango, eite condensado ,leite em pó ,granola.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/C U P U A Ç U N O P O T E ( 500 Ml)" alt="C U P U A Ç U N O P O T E ( 500 Ml)" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>C U P U A Ç U N O P O T E ( 500 Ml)</h3>
+                  <p>500 Ml de Cupuaçu banana , morango , granola leite em po e leite condencado.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$25.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <div class="bbq-content">
+            <div class="m-item-box">
+              <img src="images/Açai no pote 400 Ml.png" alt="Açai no pote 400 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Açai no pote 400 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/A Ç A I N O P O T E D E ( 500 Ml ).png" 
+              alt="A Ç A I N O P O T E D E ( 500 Ml )" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>A Ç A I N O P O T E D E ( 500 Ml )</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$25.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/C A S A D I N H O N O P O T E ( 500 Ml )" 
+              alt="C A S A D I N H O N O P O T E ( 500 Ml )" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>C A S A D I N H O N O P O T E ( 500 Ml )</h3>
+                  <p>(250 Ml ) de Cupuaçu e (250 ml ) banana, morango, leite em po granola, 
+                    leite condensado.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$25.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu-container" id="item8">
+      <h2 class="heading container">Bolos no Pote de 10,00</h2>
+      <img src="images/menu-mask.png" alt="" class="menu-mask" />
+      <div class="menu-content container">
+        <div class="menu-box">
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/Bolo gelado brigadeiro.png" alt="Bolo gelado brigadeiro" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Bolo gelado brigadeiro</h3>
+                  <p>Pao de lo com cacau recheado com doce de brigadeiro coberto com brigadeiro e granulado.</p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$10.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Mousse Creme de Abacaxi.png" alt="Mousse Creme de Abacaxi" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Mousse Creme de Abacaxi</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$10.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Bolo Gelado Bem casado" alt="Bolo Gelado Bem casado" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Bolo Gelado Bem casado</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$10.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <div class="bbq-content">
+            <div class="m-item-box">
+              <img src="images/Bolo Gelado Sensaçao.png" alt="Bolo Gelado Sensaçao" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Bolo Gelado Sensaçao</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$10.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Mousse de Maracujá.png" 
+              alt="Mousse de Maracujá" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Mousse de Maracujá</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$10.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Bolo Gelado Floresta Negra" 
+              alt="Bolo Gelado Floresta Negra" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Bolo Gelado Floresta Negra</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$10.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu-container" id="item9">
+      <h2 class="heading container">Doces e Chocolate</h2>
+      <img src="images/menu-mask.png" alt="" class="menu-mask" />
+      <div class="menu-content container">
+        <div class="menu-box">
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/Halls 34g.png" alt="Halls 34g" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Halls 34g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$4.50</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div><br>
+            <div class="m-item-box">
+              <img src="images/Paçoquita 20g.png" alt="Paçoquita 20g" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Paçoquita 20g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$1.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Chocolate laka 34 g.png" alt="Chocolate laka 34 g"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Chocolate laka 34 g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$4.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Chocolate Snickers 45 g.png" alt="Chocolate Snickers 45 g" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Chocolate Snickers 45 g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$4.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Chocolate Kitkat 41,5 g.png" alt="Chocolate Kitkat 41,5 g"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Chocolate Kitkat 41,5 g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$4.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Chocolate nestle prestigio 33 g.png" alt="Chocolate nestle prestigio 33 g"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Chocolate nestle prestigio 33 g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$4.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Chocolate Chokito 32 g.png" alt="Chocolate Chokito 32 g" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Chocolate Chokito 32 g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$4.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Chocolate Baton ( branco)16g.png" alt="Chocolate Baton ( branco)16g"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Chocolate Baton ( branco)16g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$2.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Chocolate Baton( Preto) 16g.png" alt="Chocolate Baton( Preto) 16g"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Chocolate Baton( Preto) 16g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$2.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <div class="bbq-content">            
+            <div class="m-item-box">
+              <img src="images/Bombom Sonho de Valsa 20g.png" alt="Bombom Sonho de Valsa 20g" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Bombom Sonho de Valsa 20g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$2.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Bombom Ouro Branco 20g.png" alt="Bombom Ouro Branco 20g" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Bombom Ouro Branco 20g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$2.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Cocada (Branca ) 40g.png" alt="Cocada (Branca ) 40g" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cocada (Branca ) 40g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Cocada ( Preta ) 40g.png" alt="Cocada ( Preta ) 40g" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cocada ( Preta ) 40g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Doce de leite 65g.png" alt="Doce de leite 65g" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Doce de leite 65g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Gibi 55g.png" alt="Gibi 55g" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Gibi 55g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Pé de Moça 45g.png" alt="Pé de Moça 45g" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Pé de Moça 45g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Doce de Abobora 70g.png" alt="Doce de Abobora 70g" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Doce de Abobora 70g</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu-container" id="item10">
+      <h2 class="heading container">Bebidas sem álcool e sucos</h2>
+      <img src="images/menu-mask.png" alt="" class="menu-mask" />
+      <div class="menu-content container">
+        <div class="menu-box">
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/Coca Lata 350 Ml.png" alt="Coca Lata 350 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Coca Lata 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$6.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div><br>
+            <div class="m-item-box">
+              <img src="images/Coca zero Lata 350 Ml.png" alt="Coca zero Lata 350 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Coca zero Lata 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$6.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Fanta laranja Lata 350 Ml.png" alt="Fanta laranja Lata 350 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Fanta laranja Lata 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$6.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Fanta Uva Lata 350 Ml.png" alt="Fanta Uva Lata 350 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Fanta Uva Lata 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$6.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Guarana Antarctica 350 ml.png" alt="Guarana Antarctica 350 ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Guarana Antarctica 350 ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$6.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Schweppes Lata 350 Ml.png" alt="Schweppes Lata 350 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Schweppes Lata 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$6.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Soda Limonada Antarctica.png" alt="Soda Limonada Antarctica" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Soda Limonada Antarctica</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$6.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Guaraná Antarctica 600 ml.png" alt="Guaraná Antarctica 600 ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Guaraná Antarctica 600 ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$8.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Coca Cola 600 Ml.png" alt="Coca Cola 600 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Coca Cola 600 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$8.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Coca cola Zero 600 Ml.png" alt="Coca cola Zero 600 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Coca cola Zero 600 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$8.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Gelo de Coco Sabor Melancia 200ml.png" alt="Gelo de Coco Sabor Melancia 200ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Gelo de Coco Sabor Melancia 200ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Gelo de Coco Sabor Maça Verde 200ml.png" alt="Gelo de Coco Sabor Maça Verde 200ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Gelo de Coco Sabor Maça Verde 200ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Gelo de Coco Sabor Maracuja 200ml.png" alt="Gelo de Coco Sabor Maracuja 200ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Gelo de Coco Sabor Maracuja 200ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Gelo de Coco Sabor Limao 200ml.png" alt="Gelo de Coco Sabor Limao 200ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Gelo de Coco Sabor Limao 200ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Gelo coco leve sabor Coco 200ml" alt="Gelo coco leve sabor Coco 200ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Gelo coco leve sabor Coco 200ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Dollynho Sabor Cola 350 Ml.png" alt="Dollynho Sabor Cola 350 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Dollynho Sabor Cola 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Dollynho Sabor Guarana 350 Ml.png" alt="Dollynho Sabor Guarana 350 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Dollynho Sabor Guarana 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Dollynho Sabor Laranja 350 Ml.png" alt="Dollynho Sabor Laranja 350 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Dollynho Sabor Laranja 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Dollynho Sabor Limao 350 Ml.png" alt="Dollynho Sabor Limao 350 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Dollynho Sabor Limao 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <div class="bbq-content">            
+            <div class="m-item-box">
+              <img src="images/Dolly Guarana 2 Litros.png" alt="Dolly Guarana 2 Litros" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Dolly Guarana 2 Litros</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$7.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Dolly Laranja 2 Litros.png" alt="Dolly Laranja 2 Litros" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Dolly Laranja 2 Litros</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$7.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Dolly Limao 2 Litros.png" alt="Dolly Limao 2 Litros" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Dolly Limao 2 Litros</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$7.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Sukita sabor Laranja 1 litro.png" alt="Sukita sabor Laranja 1 litro" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Sukita sabor Laranja 1 litro</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$10.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Coca cola de 1 litro.png" alt="Coca cola de 1 litro" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Coca cola de 1 litro</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$10.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Guarana Antarctica 1 litro.png" alt="Guarana Antarctica 1 litro" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Guarana Antarctica 1 litro</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$10.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Coca Cola 2 Litros.png" alt="Coca Cola 2 Litros" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Coca Cola 2 Litros</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$14.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Fanta Laranja 2 Litros.png" alt="Fanta Laranja 2 Litros" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Fanta Laranja 2 Litros</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Fanta Uva 2 Litros.png" alt="Fanta Uva 2 Litros" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Fanta Uva 2 Litros</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Schweppes 1.5 Litros.png" alt="Schweppes 1.5 Litros" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Schweppes 1.5 Litros</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Suco Del Valle Sabor Pessego 290 Ml.png" alt="Suco Del Valle Sabor Pessego 290 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Suco Del Valle Sabor Pessego 290 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Del Valle Sabor Manga 290 Ml.png" alt="Del Valle Sabor Manga 290 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Del Valle Sabor Manga 290 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Suco Del Valle Sabor Uva 290 Ml.png" alt="Suco Del Valle Sabor Uva 290 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Suco Del Valle Sabor Uva 290 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Suco Ponchito Frutas Cítricas Embalagem 450ml.png" 
+              alt="Suco Ponchito Frutas Cítricas Embalagem 450ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Suco Ponchito Frutas Cítricas Embalagem 450ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.50</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Suco Pronto Ponchito Laranja e Acerola 450ml" 
+              alt="Suco Pronto Ponchito Laranja e Acerola 450ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Suco Pronto Ponchito Laranja e Acerola 450ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.50</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Suco De laranja Natural Life ( 900 Ml ).png" alt="Suco De laranja Natural Life ( 900 Ml )" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Suco De laranja Natural Life ( 900 Ml )</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Água mineral minalba 510 Ml.png" alt="Água mineral minalba 510ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Água mineral minalba 510ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Agua Com Gas minalba 510 Ml.png" alt="Agua Com Gas minalba 510 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Agua Com Gas minalba 510 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$3.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu-container" id="item11">
+      <h2 class="heading container">Cervejas e bebidas com álcool</h2>
+      <img src="images/menu-mask.png" alt="" class="menu-mask" />
+      <div class="menu-content container">
+        <div class="menu-box">
+          <div class="burgers-content items2">
+            <div class="m-item-box">
+              <img src="images/Cerveja Estrella Galicia 350ml.png" alt="Cerveja Estrella Galicia 350ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cerveja Estrella Galicia 350ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$6.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div><br>
+            <div class="m-item-box">
+              <img src="images/Cerveja Puro Malte Munich Spaten 269ml.png" 
+              alt="Cerveja Puro Malte Munich Spaten 269ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cerveja Puro Malte Munich Spaten 269ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Cerveja Brahma Duplo malte 269 Ml.png" alt="Cerveja Brahma Duplo malte 269 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cerveja Brahma Duplo malte 269 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Cerveja Amstel 269ml" alt="Cerveja Amstel 269ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cerveja Amstel 269ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Cerveja Imperio Fininha 269 Ml.png" alt="Cerveja Imperio Fininha 269 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cerveja Imperio Fininha 269 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img
+                src="images/Cerveja Skol Fininha 269 Ml.png" alt="Cerveja Skol Fininha 269 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cerveja Skol Fininha 269 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$5.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Cerveja Lata Heineken 350 Ml.png" alt="Cerveja Lata Heineken 350 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cerveja Lata Heineken 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$8.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Cerveja Skol 350 Ml.png" alt="Cerveja Skol 350 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cerveja Skol 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$6.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Cerveja Lata Brahma Duplo Malte 350 Ml.png" alt="Cerveja Lata Brahma Duplo Malte 350 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cerveja Lata Brahma Duplo Malte 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$8.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Cerveja Heineken ( Garrafinha ) 330 Ml.png" alt="Cerveja Heineken ( Garrafinha ) 330 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cerveja Heineken ( Garrafinha ) 330 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$10.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Cerveja Latao Skol 550 Ml.png" alt="Cerveja Latao Skol 550 Ml"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Cerveja Latao Skol 550 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$8.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Energetico vibe 2 litros.png" alt="Energetico vibe 2 litros"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Energetico vibe 2 litros</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Energetico Vibe Sabor Maça verde.png" alt="Energetico Vibe Sabor Maça verde"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Energetico Vibe Sabor Maça verde</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-box">
+          <div class="bbq-content">            
+            <div class="m-item-box">
+              <img src="images/Energetico Tnt 269 Ml.png" alt="Energetico Tnt 269 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Energetico Tnt 269 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$10.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/mirnoff Ice 275ml (garrafinha).png" alt="mirnoff Ice 275ml (garrafinha)" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>mirnoff Ice 275ml (garrafinha)</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Chopp de vinho ( draft).png" alt="Chopp de vinho (draft)" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Chopp de vinho (draft)</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$18.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Vinho Cantinho do Vale 880 Ml.png" alt="Vinho Cantinho do Vale 880 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Vinho Cantinho do Vale 880 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$8.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Vinho Sangue de Boi 750 Ml.png" alt="Vinho Sangue de Boi 750 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Vinho Sangue de Boi 750 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Vodka Moscowita 1 L.png" alt="Vodka Moscowita 1 L" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Vodka Moscowita 1 L</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$15.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Aguardente de cana Pitu 350 Ml.png" alt="Aguardente de cana Pitu 350 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Aguardente de cana Pitu 350 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$8.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Corote Sabor Limao 500 Ml.png" alt="Corote Sabor Limao 500 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Corote Sabor Limao 500 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$7.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Corote Sabor Maracuja 500 Ml.png" alt="Corote Sabor Maracuja 500 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Corote Sabor Maracuja 500 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$7.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Corote Sabor Morango 500 Ml.png" alt="Corote Sabor Morango 500 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Corote Sabor Morango 500 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$7.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Corote Sabor Pessego 500 Ml.png" alt="Corote Sabor Pessego 500 Ml" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Corote Sabor Pessego 500 Ml</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$7.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Selvagem 1 Litro.png" alt="Selvagem 1 Litro" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Selvagem 1 Litro</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Selvagem Sabor Açai 1 Litro.png" alt="Selvagem Sabor Açai 1 Litro" />
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Selvagem Sabor Açai 1 Litro</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$20.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="m-item-box">
+              <img src="images/Energetico Vibe sabor Melancia.png" alt="Energetico Vibe sabor Melancia"/>
+              <div class="m-item-right">
+                <div class="m-item-des">
+                  <h3>Energetico Vibe sabor Melancia</h3>
+                  <p></p>
+                </div>
+                <div class="m-item-price add-to-cart-btn">
+                  <h3>R$12.00</h3>
+                  <button class="add-to-cart item-btn">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL CART -->
+    <div
+      class="bg-black/90 w-full h-full fixed top-0 left-0 z-[99] flex items-center justify-center hidden"
+      id="cart-modal"
+    >
+      <div class="bg-green-500 p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+        <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+        <div id="cart-items3" class="flex flex-col mb-2"></div>
+        <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+        <p class="font-bold mt-4">Nome do cliente:</p>
+        <input
+          type="text"
+          placeholder="Digite seu nome"
+          id="customer-name"
+          class="w-full border-2 p-1 rounded my-1"
+        />
+
+        <p class="font-bold mt-4">Endereço de entrega:</p>
+        <input
+          type="text"
+          placeholder="Digite seu endereço completo..."
+          id="address"
+          class="w-full border-2 p-1 rounded my-1"
+        />
+        <p class="text-red-500 hidden" id="address-warn">
+          Digite seu endereço completo!
+        </p>
+
+        <p class="font-bold mt-2">Comentários (ex: retirar ingredientes):</p>
+        <textarea
+          id="comments"
+          rows="3"
+          placeholder="Digite seu comentário aqui..."
+          class="w-full border-2 p-1 rounded my-1"
+        ></textarea>
+
+        <div class="flex items-center justify-between mt-5 w-full">
+          <button
+            id="close-modal-btn"
+            class="bg-red-500 text-white px-4 py-1 rounded"
+          >
+            Fechar
+          </button>
+          <button
+            id="checkout-btn"
+            class="bg-red-500 text-white px-4 py-1 rounded"
+          >
+            Finalizar pedido
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- FIM MODAL CART -->
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-content container">
+        <div class="footer-box">
+          <a href="#" class="footer-logo">
+            <img src="images/logo saladão.png" alt="" />
+          </a>
+          <p>
+            Avenida Valter Boveri, N° 969 Bussocaba Osasco- SP <br />
+            CEP: 6053120
+          </p>
+          <div class="social">
+            <a href="https://www.instagram.com/saladaonv/" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.facebook.com/pages/Saladão/392854710795612" target="_blank"><i class="bx bxl-facebook"></i></a>
+        </div>
+        </div>
+        <div class="footer-box">
+          <h3>Horário de funcionamento</h3>
+          <p><span>Seg</span>: Fechado</p>
+          <p><span>Ter</span>: 19:00 - 01:00</p>
+          <p><span>Qua</span>: 19:00 - 01:00</p>
+          <p><span>Qui</span>: 19:00 - 01:00</p>
+          <p><span>Sex</span>: 19:00 - 01:00</p>
+          <p><span>Sab</span>: 19:00 - 01:00</p>
+          <p><span>Dom</span>: 19:00 - 01:00</p>
+        </div>
+        <div class="footer-box">
+          <h3>Informações</h3>
+          <a href="sobre.html">Sobre nós</a>
+        </div>
+        <div class="footer-box">
+          <h3>Contato</h3>
+          <p>+55(11)94972-1592</p>
+          <p>
+            e-mail <br />
+            saladao@gmail.com
+          </p>
+        </div>
+      </div>
+      <p class="copyright">
+        &#169; 2024 Andre Ribeiro de Carvalho. Todos os direitos reservados
+      </p>
+    </div>
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- LINK TO JS-->
+    <script src="main.js"></script>
+  </body>
+</html>

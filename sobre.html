@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Saladão</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.c"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylemodal.css"/>
+    <!-- Box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- NAV -->
+      <div class="nav container">
+        <!-- LOGO -->
+        <a href="#" class="logo">
+          <img src="images/logo saladão.png" alt="" />
+        </a>
+        <!-- NAVBAR -->
+        <div class="navbar">
+            <a href="index.html" class="nav-link">Home</a>
+            <div class="dropdown">
+              <a href="cardapio.html" class="nav-link">Cardápio</a>
+              <div class="dropdown-content">
+                <a href="#item1">Lanches em promoção</a>
+                <a href="#item2">Lanches tudão</a>
+                <a href="#item3">Pastéis</a>
+                <!-- <a href="#item4">Caldos</a> -->
+                <a href="#item5">Batatas fritas e Caldos</a>
+                <a href="#item6">Beirutes</a>
+                <a href="#item7">Sobremesa gelada</a>
+                <a href="#item8">Bolos no Pote</a>
+                <a href="#item9">Doces e Chocolate</a>
+                <a href="#item10">Bebidas sem álcool e sucos</a>
+                <a href="#item11">Cervejas e bebidas com álcool</a>
+              </div>
+            </div>
+            <a href="sobre.html" class="nav-link">Sobre Nós</a>
+          </div>
+
+        <!-- NAV ICONS -->
+        <div class="nav-icons">
+          <button id="cart-btn">
+            (<span id="cart-count">0</span>) Ver meu carrinho
+          </button>
+          <!-- Menu ICON -->
+          <div class="menu-icon">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HOME -->
+    <section class="home" id="home">
+        <div class="home-content container">
+          <div class="home-text">
+            <h1>Saladão o predileto</h1>
+            <br />
+            <span>Avenida Valter Boveri, N° 969 Bussocaba Osasco- SP</span>
+            <div class="bg-green-500" id="date-span">
+              <span>Terça à Domingo - 19:00 às 01:00</span>
+            </div>
+          </div>
+          <!-- HOME IMAGE -->
+          <img src="images/home2.png" alt="" class="home-img" />
+        </div>
+        <!-- HOME MASK IMAGE -->
+        <img src="images/home-mask.png" alt="" class="home-mask" />
+      </section>
+    <section class="home justify-center text-center bg-black" id="home">
+      <h3><b>Com mais de 20 anos de tradição</b>, somos a referência indiscutível em
+      lanches em Osasco! Delicie-se com nossas irresistíveis opções, como o
+      suculento X-Salada, o clássico Cachorro Quente, e o explosivo X-Tudo.
+      Experimente o Big Beirute, e não perca as nossas crocantes porções de
+      fritas e hot dogs que vão fazer seu paladar vibrar! Nossa variedade é de
+      dar água na boca: pastéis quentinhos, batatas fritas douradas, suco de
+      laranja refrescante e hamburgueres irresistíveis. Saboreie também as
+      opções com calabresa, bacon, cheddar, e o delicioso X-Egg, além do frango
+      frito com Catupiry que vai te deixar pedindo mais. E para fechar com chave
+      de ouro, nossos doces, bolos e caldos são a combinação perfeita para uma
+      experiência única. <B>Venha nos visitar e descubra o verdadeiro sabor de
+      Osasco!</B></h3><br>
+      <h3><b>Nossa Localização</b></h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.844887217327!2d-46.7912166!3d-23.5363648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff8f1fcd76f1%3A0xb69ed7d6dc76e2f4!2sAv.%20Valter%20Boveri%2C%20969%20-%20Bussocaba%2C%20Osasco%20-%20SP%2C%2006132-006!5e0!3m2!1spt-BR!2sbr!4v1725663417811!5m2!1spt-BR!2sbr"
+        width="100%"
+        height="430"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!-- MODAL CART -->
+    <div
+      class="bg-black/90 w-full h-full fixed top-0 left-0 z-[99] flex items-center justify-center hidden"
+      id="cart-modal"
+    >
+      <div class="bg-green-500 p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+        <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+        <div id="cart-items3" class="flex flex-col mb-2"></div>
+        <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+        <p class="font-bold mt-4">Nome do cliente:</p>
+        <input
+          type="text"
+          placeholder="Digite seu nome"
+          id="customer-name"
+          class="w-full border-2 p-1 rounded my-1"
+        />
+
+        <p class="font-bold mt-4">Endereço de entrega:</p>
+        <input
+          type="text"
+          placeholder="Digite seu endereço completo..."
+          id="address"
+          class="w-full border-2 p-1 rounded my-1"
+        />
+        <p class="text-red-500 hidden" id="address-warn">
+          Digite seu endereço completo!
+        </p>
+
+        <p class="font-bold mt-2">Comentários (ex: retirar ingredientes):</p>
+        <textarea
+          id="comments"
+          rows="3"
+          placeholder="Digite seu comentário aqui..."
+          class="w-full border-2 p-1 rounded my-1"
+        ></textarea>
+
+        <div class="flex items-center justify-between mt-5 w-full">
+          <button
+            id="close-modal-btn"
+            class="bg-red-500 text-white px-4 py-1 rounded"
+          >
+            Fechar
+          </button>
+          <button
+            id="checkout-btn"
+            class="bg-red-500 text-white px-4 py-1 rounded"
+          >
+            Finalizar pedido
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- FIM MODAL CART -->
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-content container">
+        <div class="footer-box">
+          <a href="#" class="footer-logo">
+            <img src="images/logo saladão.png" alt="" />
+          </a>
+          <p>
+            Avenida Valter Boveri, N° 969 Bussocaba Osasco- SP <br />
+            CEP: 6053120
+          </p>
+          <div class="social">
+            <a href="https://www.instagram.com/saladaonv/" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.facebook.com/pages/Saladão/392854710795612" target="_blank"><i class="bx bxl-facebook"></i></a>
+        </div>
+
+        </div>
+        <div class="footer-box">
+          <h3>Horário de funcionamento</h3>
+          <p><span>Seg</span>: Fechado</p>
+          <p><span>Ter</span>: 19:00 - 01:00</p>
+          <p><span>Qua</span>: 19:00 - 01:00</p>
+          <p><span>Qui</span>: 19:00 - 01:00</p>
+          <p><span>Sex</span>: 19:00 - 01:00</p>
+          <p><span>Sab</span>: 19:00 - 01:00</p>
+          <p><span>Dom</span>: 19:00 - 01:00</p>
+        </div>
+        <div class="footer-box">
+          <h3>Informações</h3>
+          <a href="sobre.html">Sobre nós</a>
+        </div>
+        <div class="footer-box">
+          <h3>Contato</h3>
+          <p>+55(11)94972-1592</p>
+          <p>
+            e-mail <br />
+            saladao@gmail.com
+          </p>
+        </div>
+      </div>
+      <p class="copyright">
+        &#169; 2024 Andre Ribeiro de Carvalho. Todos os direitos reservados
+      </p>
+    </div>
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- LINK TO JS-->
+    <script src="main.js"></script>
+  </body>
+</html>
